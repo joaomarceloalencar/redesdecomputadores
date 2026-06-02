@@ -1,9 +1,14 @@
 # Trabalho Prático 01 — Análise de Conexões TCP com Wireshark
 
 **Disciplina:** Redes de Computadores
+
 **Valor:** 2,0 pontos (Avaliação 3)
+
 **Formação de equipes:** até 2 integrantes
-**Prazo de entrega:** duas semanas a partir da data de divulgação
+
+**Prazo de entrega:** 16/06/2026
+
+**Formato da entrega:** Enviar o link do vídeo no YouTube (não listado) via Telegram, com o nome dos integrantes da equipe.
 
 ---
 
@@ -32,7 +37,7 @@ Os(as) alunos(as) devem configurar, de forma autônoma, um ambiente de laborató
 
 ### 3.2 Desenvolvimento da aplicação
 
-Para geração do tráfego TCP a ser analisado, as equipes devem desenvolver um **servidor TCP de eco** (*echo server*), tendo como ponto de partida os exemplos de código fornecidos pelo professor. O comportamento esperado da aplicação é o seguinte:
+Para geração do tráfego TCP a ser analisado, as equipes devem desenvolver um **servidor TCP de eco** (*echo server*) em Python, tendo como ponto de partida os exemplos de código fornecidos pelo professor. O comportamento esperado da aplicação é o seguinte:
 
 1. O cliente envia um caractere ao servidor;
 2. O servidor exibe o caractere recebido em sua saída padrão e o retransmite ao cliente;
